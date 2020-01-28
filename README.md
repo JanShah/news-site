@@ -1,8 +1,22 @@
 ### Sources: 
 
 >Flag icons https://www.npmjs.com/package/flag-icon-css
->News - Newsapi.org
->newsAPI library
+
+>Other icons fortawesome https://github.com/FortAwesome/Font-Awesome
+
+>News - https://newsapi.org
+
+>newsAPI library https://github.com/bzarras/newsapi
+
+> Samantha Ming https://medium.com/dailyjs/how-to-remove-array-duplicates-in-es6-5daa8789641c
+
+> Alligator.io css https://alligator.io/css/cropping-images-object-fit/
+
+> https://codepulse.blog/how-to-focus-element-in-react/
+
+> https://reacttraining.com/react-router/web/example/url-params
+
+
 
 ### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
