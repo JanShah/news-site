@@ -1,0 +1,15 @@
+.skip-navigation {
+    position: fixed;
+    top: -100px;
+    left: 0;
+    padding: 5px;
+    background: white;
+    color: #222;
+    z-index: 100;
+    text-decoration: none;
+}
+.skip-navigation:active,
+.skip-navigation:focus {
+    top:0;
+    left: 0;
+}

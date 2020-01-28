@@ -1,0 +1,152 @@
+header {
+    display:flex;
+    align-items: flex-start;
+    margin: 0 -20px;
+    background: #3949AB;
+    padding: 0 20px;
+}
+
+header .nav-container {
+    margin-top: 42px;
+    flex: 1 1;
+}
+/* header > a {
+    flex:1;
+} */
+
+.App-logo {
+    height: 40vmin;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.App {
+    margin: 0 20px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+.App-link {
+    color: #09d3ac;
+}
+
+@media (min-width:1401px) {
+    #headlines,
+    #sources {
+        display: grid;
+        grid-template: "a a a a a" auto/ 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .article img {
+        height: 450px;
+    }
+}
+
+@media (max-width:1400px) {
+    #headlines,
+    #sources {
+        display: grid;
+        grid-template: "a a a a" auto/ 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .article img {
+        height: 400px;
+    }
+}
+
+@media (max-width:1140px) {
+    #headlines,
+    #sources {
+        display: grid;
+        grid-template: "a a a" auto/ 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .article img {
+        height: 300px;
+    }
+}
+
+@media (max-width:960px) {
+    #headlines,
+    #sources {
+        display: grid;
+        grid-template: "a a" auto/ 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .article img {
+        height: 250px;
+    }
+}
+
+@media (max-width:600px) {
+    #headlines,
+    #sources {
+        display: grid;
+        grid-template: "a" auto;
+        grid-gap: 10px;
+    }
+    #headlines span,
+    #sources span {
+        padding: 10px;
+    }
+    .article img {
+        height: 200px;
+    }
+}
+
+#main nav {
+    margin: 20px 0;
+    text-align:center;
+    padding: 10px 0;
+    border-radius: 3px;
+    border: 1px solid #1A237E;
+    box-sizing: border-box;
+    background: #394bac;
+}
+
+#main nav select {
+    min-width: 150px;
+    margin-right: 20px;
+    padding: 3px 5px;
+    border-radius: 3px;
+    border-color: #c3c3c3;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#main nav label {
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+}
+
+#main nav button {
+    float: right;
+    padding: 6px;
+    margin-right: 10px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    background: #1a257f;
+    color: white;
+    transition: all .3s;
+}
+
+#main nav button:hover {
+    background: #F44336;
+    color: white;
+}

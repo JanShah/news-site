@@ -1,0 +1,74 @@
+.flag-icon {
+    line-height: 2em!important;
+    width: 4em!important;
+    margin:4px 0;
+    grid-area: flag;
+}
+
+.news-source {
+    animation-name: fade-in;
+    display: grid;
+    grid-template:
+        "main flag" auto
+        "content content" auto
+        "social category" auto/ 4fr 1fr;
+    grid-gap: 0px;
+    grid-template-rows: 54px 1fr 35px;
+    border: 1px solid rgba(51, 51, 51, 0.15);
+    padding: 10px;
+    background: white;
+    border-radius: 3px;
+}
+.news-source h2 {
+    grid-area: main;
+    margin: 10px 0;
+}
+
+.news-source summary {
+    grid-area: content;
+    padding: 10px 0;
+}
+
+.news-source em {
+    grid-area: category;
+}
+.news-source .iconButtons {
+    grid-area: social;
+}
+
+.news-source .favourite {
+    width:50px;
+    border:0;
+    border-radius: 3px;
+    padding: 5px 0;
+    margin-right: 10px;
+    background: transparent;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.news-source svg {
+    width:1.4em!important;
+    height:1.4em!important;
+}
+
+.news-source svg path {
+    transition: all 0.3s;
+    fill: white!important;
+    stroke: #2f2226!important;
+    stroke-width: 20!important;
+}
+
+.news-source svg.selected path {
+    fill: red!important;
+    stroke: #b92054!important;
+    stroke-width: 31!important;
+}
