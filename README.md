@@ -1,7 +1,8 @@
 ### Sources: 
-> Flag icons https://www.npmjs.com/package/flag-icon-css
-> News - Newsapi.org
-> newsAPI library
+
+>Flag icons https://www.npmjs.com/package/flag-icon-css
+>News - Newsapi.org
+>newsAPI library
 
 ### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
